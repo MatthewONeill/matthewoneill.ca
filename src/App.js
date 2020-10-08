@@ -67,7 +67,7 @@ function App() {
           </div>
           <div class="col" align="center">
             <img src={carleton} alt="" class="carleton"></img>
-            <p>Carleton</p>
+            <p>Carleton University</p>
             <p>2018-Present</p>
             <p>10.1/12.0 CGPA</p>
             <p>Deans List</p>
