@@ -5,18 +5,19 @@ class Navbar extends React.Component{
 
     render(){
         return(
-            <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-                <a class="navbar-brand" href="#" style={{color: "#81A1C1"}}>Matthew O'Neill</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style={{color: "#81A1C1"}}>Projects</a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+                <a class="navbar-brand" href="#home" style={{color: "#81A1C1"}}>Matthew O'Neill</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#projects" style={{color: "#81A1C1"}}>Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style={{color: "#81A1C1"}}>Education/Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style={{color: "#81A1C1"}}>Contact Me</a>
+                        <a class="nav-link" href="#experience" style={{color: "#81A1C1"}}>Education/Experience</a>
                     </li>
                     </ul>
                 </div>
@@ -26,3 +27,4 @@ class Navbar extends React.Component{
 }
 
 export default Navbar;
+

@@ -19,7 +19,7 @@ function App() {
     <div>
       <Navbar/>
       <div class="container-fluid">
-        <div class="row align-items-center home">
+        <div class="row align-items-center home" id="home">
           <div class="col" align="center">
             <img src={me} alt=""></img>
             <p>Hey, I'm Matthew.</p>
@@ -31,26 +31,33 @@ function App() {
 
         <div class="row projects">
           <div class="col" align="center">
-            <h3 style={{paddingBottom: "20px", paddingTop: "20px"}}>Projects</h3>
+            <h2 style={{paddingTop: "20px"}}>&#128187; Projects</h2>
+            <hr style={{width: "350px", backgroundColor: "#D8DEE9", marginBottom: "40px"}}></hr>
           </div>
         </div>
 
-        <div class="row projects">
-          <div class="col" align="right">
-            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><p class="projectText">Tower Defense Game</p></a>
-            <a href="https://github.com/MatthewONeill/cardMemoryGame"><img src={concentration} alt="" class="projectImg"></img></a>
-            <a href="https://github.com/MatthewONeill/triviaGameSessions"><p class="projectText">Trivia Game</p></a>
-          </div>
-          <div class="col" align="left">
-            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={towerdefense} alt="" class="projectImg"></img></a>
-            <a href="https://github.com/MatthewONeill/cardMemoryGame"><p class="projectText">Card Memory Game</p></a>
-            <a href="https://github.com/MatthewONeill/triviaGameSessions"><img src={trivia} alt="" class="projectImg"></img></a>
-          </div>
-        </div>
-
-        <div class="row experience">
+        <div class="row projects" id="projects">
           <div class="col" align="center">
-            <h3 style={{marginBottom: "20px", marginTop: "50px"}}>Experience</h3>
+            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={towerdefense} alt="" class="projectImg"></img></a>
+            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><h4>Tower Defense Game</h4></a>
+            <p>Some lorem ipsum</p>
+          </div>
+          <div class="col" align="center">
+            <a href="https://github.com/MatthewONeill/cardMemoryGame"><img src={concentration} alt="" class="projectImg"></img></a>
+            <a href="https://github.com/MatthewONeill/cardMemoryGame"><h4>Concentration</h4></a>
+            <p>More lorem ipsum</p>
+          </div>
+          <div class="col" align="center">
+            <a href="https://github.com/MatthewONeill/triviaGameSessions"><img src={trivia} alt="" class="projectImg"></img></a>
+            <a href="https://github.com/MatthewONeill/triviaGameSessions"><h4>Trivia Game</h4></a>
+            <p>Even more lorem ipsum</p>
+          </div>
+        </div>
+
+        <div class="row experience" id="experience">
+          <div class="col" align="center">
+            <h2 style={{marginBottom: "20px", marginTop: "50px"}}>&#128214; Education/Experience</h2>
+            <hr style={{width: "390px", backgroundColor: "#D8DEE9", marginBottom: "40px"}}></hr>
           </div>
         </div>
         
