@@ -37,14 +37,14 @@ function App() {
 
         <div class="row projects">
           <div class="col" align="right">
-            <p class="projectText">Tower Defense Game</p>
-            <img src={concentration} alt="" class="projectImg"></img>
-            <p class="projectText">Trivia Game</p>
+            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><p class="projectText">Tower Defense Game</p></a>
+            <a href="https://github.com/MatthewONeill/cardMemoryGame"><img src={concentration} alt="" class="projectImg"></img></a>
+            <a href="https://github.com/MatthewONeill/triviaGameSessions"><p class="projectText">Trivia Game</p></a>
           </div>
           <div class="col" align="left">
-            <img src={towerdefense} alt="" class="projectImg"></img>
-            <p class="projectText">Card Memory Game</p>
-            <img src={trivia} alt="" class="projectImg"></img>
+            <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={towerdefense} alt="" class="projectImg"></img></a>
+            <a href="https://github.com/MatthewONeill/cardMemoryGame"><p class="projectText">Card Memory Game</p></a>
+            <a href="https://github.com/MatthewONeill/triviaGameSessions"><img src={trivia} alt="" class="projectImg"></img></a>
           </div>
         </div>
 
