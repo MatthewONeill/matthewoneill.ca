@@ -12,14 +12,14 @@ class Experience extends React.Component{
                 <div class="row experience" id="experience">
                     <div class="col" align="center">
                         <h2 style={{marginBottom: "20px", marginTop: "60px"}}><span role="img" aria-label="book">&#128214;</span> Education/Experience</h2>
-                        <hr style={{width: "390px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
+                        <hr style={{width: "320px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
                     </div>
                 </div>
             
                 <div class="row experience" style={{border: "5px"}}>
                     <div class="col" align="center">
                         <fieldset class="border-bottom" style={{paddingBottom: "20px"}}>  
-                        <img src={feenics} style={{width: "50%", marginBottom: "31px"}} alt=""></img>
+                        <img src={feenics} style={{width: "330px", height: "89px", marginBottom: "30px"}} alt=""></img>
                         <p>Feenics</p>
                         <p>May 2020 - December 2020</p>
                         <p>Software Development Co-op</p>
@@ -39,8 +39,8 @@ class Experience extends React.Component{
                         <p>10.1/12.0 CGPA: Deans List</p>
                         </fieldset>
                         <fieldset>
-                        <img src={placeholder} alt="" style={{height: "25%", width: "50%", marginTop: "30px"}}></img>
-                        <p>Placeholder</p>
+                            <p style={{fontSize: "150%", marginTop: "30px"}}>Future Opportunities</p>
+                            <p>Interested in opportunities with web development, app development</p>
                         </fieldset>
                     </div>  
                 </div>

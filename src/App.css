@@ -58,16 +58,17 @@ h2{
     background-color: #4C566A;
 }
 
-@media(min-width: 400px){
+@media(min-width: 360px){
     .mobileLine{
-        border-bottom: 1px solid #e3e7eb;
+        border-bottom: 1px solid #dee2e6;
     }
     .mobileLine2{
         padding-top: 20px;
     }
+    
 }
 
-@media(min-width: 800px){
+@media(min-width: 767px){
     .mobileLine{
         border-bottom: 0px;
     }

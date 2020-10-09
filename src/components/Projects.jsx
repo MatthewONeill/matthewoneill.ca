@@ -11,7 +11,7 @@ class Projects extends React.Component{
                 <div class="row projects" id="projects">
                     <div class="col" align="center">
                         <h2 style={{paddingTop: "60px"}}><span role="img" aria-label="laptop">&#128187;</span> Projects</h2>
-                        <hr style={{width: "350px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
+                        <hr style={{width: "320px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
                     </div>
                 </div>
 
