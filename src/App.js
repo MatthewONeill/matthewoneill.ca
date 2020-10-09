@@ -5,6 +5,7 @@ import Home from "./components/Home.jsx";
 import Projects from "./components/Projects.jsx"
 import Experience from "./components/Experience.jsx";
 
+//Main page
 function App() {
   return (
     <div>
