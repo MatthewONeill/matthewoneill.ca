@@ -3,7 +3,7 @@ import '../App.css';
 import feenics from '../images/feenics.png';
 import independent from '../images/independent.png';
 import carleton from '../images/carleton.png';
-import placeholder from '../images/placeholder.png';
+
 
 class Experience extends React.Component{
     render(){
