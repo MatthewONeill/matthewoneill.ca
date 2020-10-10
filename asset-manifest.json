@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f1ab027.chunk.css",
+    "main.js": "/static/js/main.7e6353c7.chunk.js",
+    "main.js.map": "/static/js/main.7e6353c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d32ca624.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d32ca624.js.map",
+    "static/js/2.c53ec7d2.chunk.js": "/static/js/2.c53ec7d2.chunk.js",
+    "static/js/2.c53ec7d2.chunk.js.map": "/static/js/2.c53ec7d2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.23a0144e01fa7a53524a6dc3e464c16f.js": "/precache-manifest.23a0144e01fa7a53524a6dc3e464c16f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3f1ab027.chunk.css.map": "/static/css/main.3f1ab027.chunk.css.map",
+    "static/js/2.c53ec7d2.chunk.js.LICENSE.txt": "/static/js/2.c53ec7d2.chunk.js.LICENSE.txt",
+    "static/media/carleton.png": "/static/media/carleton.c761af62.png",
+    "static/media/concentration.png": "/static/media/concentration.7cf3a1f2.png",
+    "static/media/feenics.png": "/static/media/feenics.e893dea4.png",
+    "static/media/githubIcon.png": "/static/media/githubIcon.704a643d.png",
+    "static/media/me.png": "/static/media/me.01b237ac.png",
+    "static/media/towerdefense.png": "/static/media/towerdefense.0a32f448.png",
+    "static/media/trivia.png": "/static/media/trivia.c2c63bbb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d32ca624.js",
+    "static/js/2.c53ec7d2.chunk.js",
+    "static/css/main.3f1ab027.chunk.css",
+    "static/js/main.7e6353c7.chunk.js"
+  ]
+}
