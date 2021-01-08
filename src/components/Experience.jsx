@@ -1,49 +1,75 @@
 import React from 'react';
 import '../App.css';
-import feenics from '../images/feenics.png';
-import independent from '../images/independent.png';
-import carleton from '../images/carleton.png';
+import feenics from '../images/experience/feenics.png';
+import independent from '../images/experience/independent.png';
+import carleton from '../images/experience/carleton.png';
 
 
 class Experience extends React.Component{
     render(){
         return(
             <div>
-                <div class="row experience" id="experience">
-                    <div class="col" align="center">
-                        <h2 style={{marginBottom: "20px", marginTop: "60px"}}><span role="img" aria-label="book">&#128214;</span> Education/Experience</h2>
-                        <hr style={{width: "320px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
+                <div class="row text-center" style={{padding: "50px"}} id="experience">
+                    <div class="col">
+                        <h2>Carleton University</h2>
+                        <hr class="mobileLine"></hr>
+                        <p>2018 - Present</p>
+                        <p>Third Year Standing</p>
+                        <p>10.1/12 GPA</p>
+                        <p>Deans List</p>
+
+                        <img src="https://img.icons8.com/color/48/000000/python.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/javascript.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt=""/>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src={carleton} alt="" class="img-fluid mobileImage" style={{minWidth: "200px"}}></img>
                     </div>
                 </div>
-            
-                <div class="row experience" style={{border: "5px"}}>
-                    <div class="col" align="center">
-                        <fieldset class="border-bottom" style={{paddingBottom: "20px"}}>  
-                        <img src={feenics} style={{width: "330px", height: "89px", marginBottom: "30px"}} alt=""></img>
-                        <p>Feenics</p>
+
+                <hr style={{color: "#333", backgroundColor: "#333"}}></hr>
+
+                <div class="row text-center" style={{padding: "50px"}}>
+                    <div class="col">
+                        <h2>Feenics</h2>
+                        <hr class="mobileLine"></hr>
                         <p>May 2020 - December 2020</p>
                         <p>Software Development Co-op</p>
-                        </fieldset>
-                        <fieldset class="mobileLine">
-                        <img src={independent} alt="" style={{width: "300px", height: "60px", marginTop: "30px"}}></img>
-                        <p>Kings</p>
-                        <p>July 2017 - May 2020</p>
-                        <p>Customer Service, Service Clerk, Cashier, Garden Centre</p>
-                        </fieldset>
+
+                        <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/selenium-test-automation.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt=""/>
                     </div>
-                    <div class="col" align="center">
-                        <fieldset class="border-bottom mobileLine2" style={{paddingBottom: "20px"}}>
-                        <img src={carleton} alt="" class="carleton" style={{marginBottom: "30px"}}></img>
-                        <p>Carleton University</p>
-                        <p>2018-Present: Third Year Standing</p>
-                        <p>10.1/12.0 CGPA: Deans List</p>
-                        </fieldset>
-                        <fieldset>
-                            <p style={{fontSize: "150%", marginTop: "30px"}}>Future Opportunities</p>
-                            <p>Interested in opportunities with web development, app development</p>
-                        </fieldset>
-                    </div>  
+
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src={feenics} alt="" class="img-fluid mobileImage" style={{minWidth: "200px"}}></img>
+                    </div>
                 </div>
+
+                <hr style={{color: "#333", backgroundColor: "#333"}}></hr>
+
+                <div class="row text-center" style={{padding: "50px"}}>
+                    <div class="col">
+                        <h2>Independent</h2>
+                        <hr class="mobileLine"></hr>
+                        <p>July 2017 - May 2020</p>
+                        <p>Customer Service</p>
+                        <p>Service Clerk</p>
+                        <p>Cashier</p>
+                        <p>Garden Centre</p>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src={independent} alt="" class="img-fluid mobileImage" style={{minWidth: "200px"}}></img>
+                    </div>
+                </div>
+
+                <hr style={{color: "#333", backgroundColor: "#333"}}></hr>
             </div>
         );
     }

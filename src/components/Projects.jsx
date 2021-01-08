@@ -1,51 +1,84 @@
 import React from 'react';
 import '../App.css';
-import towerdefense from '../images/towerdefense.png';
-import concentration from '../images/concentration.png';
-import trivia from '../images/trivia.png';
+import tower_defense from '../images/projects/FFWW.png';
+import concentration1000 from '../images/projects/concentration.png';
+import triviaGame from '../images/projects/triviagame.png';
+import movierecommender from '../images/projects/movierecommender.png';
 
 class Projects extends React.Component{
     render(){
         return(
-            <div>
-                <div class="row projects" id="projects">
-                    <div class="col" align="center">
-                        <h2 style={{paddingTop: "60px"}}><span role="img" aria-label="laptop">&#128187;</span> Projects</h2>
-                        <hr style={{width: "320px", backgroundColor: "#D8DEE9", marginBottom: "50px"}}></hr>
+            <div style={{marginTop: "-16px"}}>
+                <div class="row text-center" id="projects">
+                    <div class="col-md-6 nopadding" id="first">
+                        <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={tower_defense} class='img-fluid w-100' alt=""></img></a>
+                    </div>
+
+                    <div class="col-md-6 nopadding" id="second">
+                        <h2>Fight Fire With Water</h2>
+                        <p>Tech Stack: Python, Pygame | Team Size: 4</p>
+                        <hr style={{width: "700px"}}></hr>
+                        <p>A tower defense game developed for COMP1501</p>
+                        <img src="https://img.icons8.com/color/48/000000/python.png" alt=""/>
                     </div>
                 </div>
 
-                <div class="row projects" style={{paddingBottom: "25px"}}> 
-                    <div class="col" align="center">
-                        <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={towerdefense} alt="" class="projectImg"></img></a>
-                        <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><h4>Tower Defense Game</h4></a>
-                        <p>
-                        -First level of a tower defense game
-                        <br/>
-                        -Made with python and pygame
-                        </p>
+                <div class="row text-center">
+                    <div class="col-md-6 nopadding" id="second">
+                        <h2>Trivia Night</h2>
+                        <p>Tech Stack: JavaScript, Node.js, Express.js, MongoDB | Team Size: 2</p>
+                        <hr style={{width: "700px"}}></hr>
+                        <p>A Trivia game developed for COMP2406</p>
+                        <img src="https://img.icons8.com/color/48/000000/javascript.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt=""/>
                     </div>
-
-                    <div class="col" align="center">
-                        <a href="https://github.com/MatthewONeill/cardMemoryGame"><img src={concentration} alt="" class="projectImg"></img></a>
-                        <a href="https://github.com/MatthewONeill/cardMemoryGame"><h4>Concentration</h4></a>
-                        <p>
-                        -Matching card game
-                        <br/>
-                        -Made with Node, HTML, CSS, Vanilla Javascript
-                        </p>
-                    </div>
-
-                    <div class="col" align="center">
-                        <a href="https://github.com/MatthewONeill/triviaGameSessions"><img src={trivia} alt="" class="projectImg"></img></a>
-                        <a href="https://github.com/MatthewONeill/triviaGameSessions"><h4>Trivia Game</h4></a>
-                        <p>
-                        -Trivia Game with sessions
-                        <br/>
-                        -Made with MongoDB, Mongoose, Node, Javascript, HTML
-                        </p>
+                    
+                    <div class="col-md-6 nopadding" id="first">
+                        <a href="https://github.com/MatthewONeill/triviaGameSessions"><img src={triviaGame} class="img-fluid w-100" alt=""></img></a>
                     </div>
                 </div>
+
+                <div class="row text-center">
+                    <div class="col-md-6 nopadding" id="first">
+                        <a href="https://github.com/MatthewONeill/movierecommender"><img src={movierecommender} class="img-fluid w-100" alt=""></img></a>
+                    </div>
+                    
+                    <div class="col-md-6 nopadding" id="second">
+                        <h2>Movie Recommender</h2>
+                        <p>Tech Stack: MongoDB, Express.js, React.js, Node.js | Team Size: 2</p>
+                        <hr style={{width: "700px"}}></hr>
+                        <p>A Website that recommends movie using the TMDb API</p>
+                        <p>Developed to learn the MERN stack</p>
+                        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt=""/>
+                    </div>
+                </div>
+
+
+                <div class="row text-center">
+                    <div class="col-md-6 nopadding" id="second">
+                        <h2>Concentration</h2>
+                        <p>Tech Stack: Node.js, JavaScript, HTML, CSS</p>
+                        <hr style={{width: "700px"}}></hr>
+                        <p>A card memory game</p>
+                        <img src="https://img.icons8.com/color/48/000000/javascript.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt=""/>
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt=""/>
+                    </div>
+
+                    <div class="col-md-6 nopadding" id="first">
+                        <a href="https://github.com/MatthewONeill/cardMemoryGame"><img src={concentration1000} class="img-fluid w-100" alt=""></img></a>
+                    </div>
+                </div>
+                
+                
+
+
             </div>
         );
     }

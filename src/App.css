@@ -1,48 +1,30 @@
 .home{
     height: 100vh;
-    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/misc/city2.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
+
 
 .homeLinks{
-    padding: 20px;
+    padding: 30px;
+    text-decoration: none;
 }
 
-.projectText{
-    margin-top: 55px;
-    margin-bottom: 50px;
-}
-
-.projectImg{
-    width: 130px;
-    height: 130px;
-}
-
-.carleton{
-    width: 270px;
-    height: 90px;
+.nopadding{
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 body{
-    background-color:#2e3440;
+    background-color:#FBFAF5;
 }
 
 p{
-    color: #8FBCBB;
-    font-family: 'Inter', sans-serif;
-}
-
-a{
-    color: #8FBCBB;
-    font-family: 'Inter', sans-serif;
-}
-
-h4{
-    color: #88C0D0;
-    font-family: 'Inter', sans-serif;
-}
-
-h2{
-    color: #81A1C1;
     font-family: 'Inter', sans-serif;
 }
 
@@ -50,20 +32,30 @@ h2{
     background-color: #202020;
 }
 
-.projects{
-    background-color: #3B4252;
-}
+@media (min-width: 359px) and (max-width: 767px){
+    
 
-.experience{
-    background-color: #4C566A;
-}
-
-@media(min-width: 360px){
-    .mobileLine{
-        border-bottom: 1px solid #dee2e6;
+    .mobileImage{
+        padding-top: 50px;
     }
-    .mobileLine2{
-        padding-top: 20px;
+    
+    .mobileLine{
+        color: #333;
+        background-color: #333
+    }
+    
+    .aboutleft, .aboutright{
+        text-align: center;
+    }
+
+    
+
+    #first{
+        order: 1;
+    }
+
+    #second{
+        order: 2;
     }
     
 }
@@ -71,8 +63,20 @@ h2{
 @media(min-width: 767px){
     .mobileLine{
         border-bottom: 0px;
+        width: 400px;
+        color: #333;
+        background-color: #333;
     }
-    .mobileLine2{
+    .mobileImage{
         padding-top: 0px;
     }
+
+    .aboutleft{
+        text-align: left;
+    }
+
+    .aboutright{
+        text-align: right;
+    }
+
 }

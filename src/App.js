@@ -12,8 +12,8 @@ function App() {
       <Navbar/>
       <div class="container-fluid">
         <Home/>
-        <Projects/>
         <Experience/>
+        <Projects/>
       </div>
     </div>
   );
