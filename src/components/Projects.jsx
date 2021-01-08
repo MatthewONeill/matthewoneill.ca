@@ -17,7 +17,7 @@ class Projects extends React.Component{
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Fight Fire With Water</h2>
                         <p>Tech Stack: Python, Pygame | Team Size: 4</p>
-                        <hr style={{width: "700px"}}></hr>
+                        <hr class="mobileLine"></hr>
                         <p>A tower defense game developed for COMP1501</p>
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt=""/>
                     </div>
@@ -27,7 +27,7 @@ class Projects extends React.Component{
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Trivia Night</h2>
                         <p>Tech Stack: JavaScript, Node.js, Express.js, MongoDB | Team Size: 2</p>
-                        <hr style={{width: "700px"}}></hr>
+                        <hr class="mobileLine"></hr>
                         <p>A Trivia game developed for COMP2406</p>
                         <img src="https://img.icons8.com/color/48/000000/javascript.png" alt=""/>
                         <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt=""/>
@@ -49,7 +49,7 @@ class Projects extends React.Component{
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Movie Recommender</h2>
                         <p>Tech Stack: MongoDB, Express.js, React.js, Node.js | Team Size: 2</p>
-                        <hr style={{width: "700px"}}></hr>
+                        <hr class="mobileLine"></hr>
                         <p>A Website that recommends movie using the TMDb API</p>
                         <p>Developed to learn the MERN stack</p>
                         <img src="https://img.icons8.com/color/48/000000/react-native.png" alt=""/>
@@ -63,7 +63,7 @@ class Projects extends React.Component{
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Concentration</h2>
                         <p>Tech Stack: Node.js, JavaScript, HTML, CSS</p>
-                        <hr style={{width: "700px"}}></hr>
+                        <hr class="mobileLine"></hr>
                         <p>A card memory game</p>
                         <img src="https://img.icons8.com/color/48/000000/javascript.png" alt=""/>
                         <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt=""/>
