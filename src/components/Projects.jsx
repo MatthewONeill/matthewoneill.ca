@@ -9,7 +9,7 @@ class Projects extends React.Component{
     render(){
         return(
             <div style={{marginTop: "-16px"}}>
-                <div class="row text-center" id="projects">
+                <div class="row text-center align-items-center" id="projects">
                     <div class="col-md-6 nopadding" id="first">
                         <a href="https://github.com/MatthewONeill/Tower-Defense-Game"><img src={tower_defense} class='img-fluid w-100' alt=""></img></a>
                     </div>
@@ -23,7 +23,7 @@ class Projects extends React.Component{
                     </div>
                 </div>
 
-                <div class="row text-center">
+                <div class="row text-center align-items-center">
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Trivia Night</h2>
                         <p>Tech Stack: JavaScript, Node.js, Express.js, MongoDB | Team Size: 2</p>
@@ -41,7 +41,7 @@ class Projects extends React.Component{
                     </div>
                 </div>
 
-                <div class="row text-center">
+                <div class="row text-center align-items-center">
                     <div class="col-md-6 nopadding" id="first">
                         <a href="https://github.com/MatthewONeill/movierecommender"><img src={movierecommender} class="img-fluid w-100" alt=""></img></a>
                     </div>
@@ -59,7 +59,7 @@ class Projects extends React.Component{
                 </div>
 
 
-                <div class="row text-center">
+                <div class="row text-center align-items-center">
                     <div class="col-md-6 nopadding" id="second">
                         <h2>Concentration</h2>
                         <p>Tech Stack: Node.js, JavaScript, HTML, CSS</p>
