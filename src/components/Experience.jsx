@@ -15,7 +15,7 @@ class Experience extends React.Component{
                         <hr class="mobileLine"></hr>
                         <p>2018 - Present</p>
                         <p>Third Year Standing</p>
-                        <p>10.1/12 GPA</p>
+                        <p>10.6/12 GPA</p>
                         <p>Deans List</p>
 
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt=""/>
