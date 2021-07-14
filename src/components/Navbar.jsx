@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import resume from '../images/MatthewONeill10.pdf';
+import resume from '../images/Matthew_ONeill_Resume.pdf';
 
 class Navbar extends React.Component{
 
