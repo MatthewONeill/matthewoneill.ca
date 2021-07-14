@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6492375c3f81e82e4806ec26ebca3dee",
+    "revision": "49290790888d7497062a699980e9f68d",
     "url": "/index.html"
   },
   {
-    "revision": "c77b2f731b2624a4ee8d",
+    "revision": "fc08574b0057754e574e",
     "url": "/static/css/main.565f2ecc.chunk.css"
   },
   {
-    "revision": "63a03a93312d57430dfe",
-    "url": "/static/js/2.c53ec7d2.chunk.js"
+    "revision": "e135979d48d208975af7",
+    "url": "/static/js/2.00c6e342.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.c53ec7d2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.00c6e342.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c77b2f731b2624a4ee8d",
-    "url": "/static/js/main.78be79b4.chunk.js"
+    "revision": "fc08574b0057754e574e",
+    "url": "/static/js/main.dce93bef.chunk.js"
   },
   {
     "revision": "a4a011ee4cff22dbe791",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce13f5e2d70bcaf139976fd7df6d5b96",
     "url": "/static/media/movierecommender.ce13f5e2.png"
+  },
+  {
+    "revision": "b504eff74c494a9d2708f2c1473fbe1f",
+    "url": "/static/media/onlineVideoPoker.b504eff7.svg"
   },
   {
     "revision": "2aeddec3d5d9d3bc386286eb30f7dc01",
